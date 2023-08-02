@@ -2,7 +2,17 @@
 
 Reproduction if an issue with NestJS + paths + SWC + Windows
 
-Build using nest -> tsc [works]
+## Steps to reproduce
+
+```
+# Install swc
+npm i -D @swc/cli @swc/core
+
+# Install dependencies
+npm install
+```
+
+Build using nest -> tsc
 
 ```
 nest build
@@ -12,7 +22,7 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 ```
 
-Build using swc [works]
+Build using swc
 
 ```
 npx swc ./src -d dist
@@ -22,7 +32,7 @@ const _appcontroller = require("./app.controller");
 const _appservice = require("./app.service");
 ```
 
-Build nest -> swc [does not work]
+Build nest -> swc
 
 ```
 nest build -b swc
