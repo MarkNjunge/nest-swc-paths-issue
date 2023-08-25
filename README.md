@@ -2,6 +2,8 @@
 
 Reproduction if an issue with NestJS + paths + SWC + Windows
 
+https://github.com/nestjs/nest-cli/issues/2211
+
 ## Steps to reproduce
 
 ```
