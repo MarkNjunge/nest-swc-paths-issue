@@ -1,5 +1,7 @@
 # nest + paths + swc + windows bug
 
+> ✅ Fixed in version v10.1.17
+
 Reproduction if an issue with NestJS + paths + SWC + Windows
 
 https://github.com/nestjs/nest-cli/issues/2211
